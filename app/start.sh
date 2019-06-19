@@ -21,6 +21,4 @@ else
   startx /usr/src/app/node_modules/electron/dist/electron /usr/src/app --enable-logging
 fi
 
-vncserver
-
-
+x11vnc -many -display :0
