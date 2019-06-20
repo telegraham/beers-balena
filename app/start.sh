@@ -21,4 +21,4 @@ else
   startx /usr/src/app/node_modules/electron/dist/electron /usr/src/app --enable-logging
 fi
 
-x11vnc -shared -display :0 -oa /var/log/x11vnc.log &
+#x11vnc -shared -display :0 -oa /var/log/x11vnc.log &
